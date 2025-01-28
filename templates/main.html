@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macstock Tech</title>
+</head>
+<body>
+    {% for name, email, password in data %}
+    <h1>This the the name of the User: {{ name }}</h1>
+    <h1>This the the email of the User: {{ email }}</h1>
+    <h1>This the the password of the User: {{ password }}</h1>
+    {% endfor %}
+</body>
+</html>
